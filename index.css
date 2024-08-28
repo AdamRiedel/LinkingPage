@@ -59,6 +59,43 @@ body{
       gap: 2rem;
     }
   }
+
+  main{
+    .video-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: var(--color3);
+      padding: 4rem;
+      gap: 1rem;
+
+      .text-container{
+        .h2{
+          color: var(--color4);
+          font-size: 1.802rem;
+          font-family: Marker;
+        }
+
+        h5,
+        p{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+        }
+      }
+
+      .video-container{
+        width: 100%;
+
+        video{
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 h1 {
