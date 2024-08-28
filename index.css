@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Mallana;
+  src: url("./fonts/Mallanna-Regular.ttf"), type("truetype");
+}
+
+@font-face {
+  font-family: Marker;
+  src: url("./fonts/Marker-Regular.ttf"), type("truetype");
+}
+
+body{
+  font-family: Mallana;
+}
