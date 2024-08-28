@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root{
+  --background: #0D1F2D;
+   --color2: #546A7B;
+   --color3: #9EA3B0;
+   --color4: #FAE1DF;
+   --color5: #E4C3AD;
+   --black: #040C13;
+}
+
 @font-face {
   font-family: Mallana;
   src: url("./fonts/Mallanna-Regular.ttf"), type("truetype");
@@ -12,8 +21,4 @@
 @font-face {
   font-family: Marker;
   src: url("./fonts/Marker-Regular.ttf"), type("truetype");
-}
-
-body{
-  font-family: Mallana;
 }
