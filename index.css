@@ -22,3 +22,35 @@
   font-family: Marker;
   src: url("./fonts/Marker-Regular.ttf"), type("truetype");
 }
+
+body{
+  font-family: Mallana;
+}
+
+h1 {
+  font-size: 2.027rem;
+  font-family: Marker;
+}
+h2 {
+  font-size: 1.802rem;
+  font-family: Marker;
+}
+h3 {
+  font-size: 1.602rem;
+}
+h4 {
+  font-size: 1.424rem;
+}
+h5 {
+  font-size: 1.266rem;
+  font-weight: 400;
+}
+h6 {
+  font-size: 1.125rem;
+}
+p {
+  font-size: 1rem;
+}
+small {
+  font-size: 0.79rem;
+}
