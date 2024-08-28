@@ -113,6 +113,33 @@ body{
       }
     }
   }
+
+  footer{
+    color: var(--color2);
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+
+    .footer-links{
+      display: flex;
+      justify-content: space-between;
+      img{
+        width: 2rem;
+        height: 2rem;
+      }
+      .links{
+        display: flex;
+        gap: 1rem;
+
+        a{
+          color: var(--color2);
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 h1 {
