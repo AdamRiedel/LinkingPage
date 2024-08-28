@@ -57,6 +57,20 @@ body{
     .icon-container{
       display: flex;
       gap: 2rem;
+
+      img{
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 20px 20px 47px #09151f, -20px -20px 47px #11293b;
+        &:hover{
+          transform: scale(1.1);
+        }
+
+        &:active{
+          box-shadow: none;
+          transform: scale(1);
+        }
+      }
     }
   }
 
@@ -105,11 +119,32 @@ body{
       padding: 4rem 4rem 8rem 4rem;
       gap: 2rem;
 
+      .link-content{
+        width: 100%;
+      }
+
+      a{
+        color: var(--background);
+        text-decoration: none;
+      }
+
       .link-container{
         background-color: var(--color3);
         border-radius: 1.25rem;
         padding: 2rem;
         width: 100%;
+        box-shadow: 20px 20px 47px #09151f, -20px -20px 47px #11293b;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover{
+          transform: scale(1.01);
+          background-color: var(--color4);
+        }
+
+        &:active{
+          background-color: var(--color2);
+        }
       }
     }
   }
